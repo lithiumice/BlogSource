@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Haggstorm",
+		"artist": "C418",
+		"url": "/medias/music/C418 - Haggstrom.mp3",
+		"cover": "/medias/music/avatars/C418.jpg"
+	},
+	{
+			"name": "socker",
+			"artist": "kent",
+			"url": "/medias/music/socker.m4a",
+			"cover": "/medias/music/avatars/socker.jpg"
+	},
+	{
+			"name": "吉野裕司-旅の途中",
+			"artist": "kent",
+			"url": "/medias/music/吉野裕司-旅の途中.mp3",
+			"cover": "/medias/music/avatars/wolfandspice.jpg"
+	},
+	{
+			"name": "三輪学-遠い空へ",
+			"artist": "kent",
+			"url": "/medias/music/三輪学-遠い空へ.mp3",
+			"cover": "/medias/music/avatars/wolfandspice.jpg"
+	}
+]

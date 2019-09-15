@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Haggstorm",
+		"artist": "C418",
+		"url": "https://m10.music.126.net/20190911225355/0798dbea778ba68e61f2858b80779ca8/ymusic/1417/61f0/0c60/2ec128a80149ef7387462e366f0d821d.mp3",
+		"cover": "/medias/music/avatars/C418.jpg"
+	},
+	{
+			"name": "socker",
+			"artist": "kent",
+			"url": "https://m701.music.126.net/20190912133006/2d4c7656f604d194c08fd029bc7023c4/jdyyaac/0752/5309/055a/08c5893972dc8d7e1a1e202d88a2058f.m4a",
+			"cover": "/medias/music/avatars/socker.jpg"
+	},
+	{
+			"name": "吉野裕司-旅の途中",
+			"artist": "kent",
+			"url": "/medias/music/吉野裕司-旅の途中.mp3",
+			"cover": "/medias/music/avatars/wolfandspice.jpg"
+	},
+	{
+			"name": "三輪学-遠い空へ",
+			"artist": "kent",
+			"url": "/medias/music/三輪学-遠い空へ.mp3",
+			"cover": "/medias/music/avatars/wolfandspice.jpg"
+	}
+]

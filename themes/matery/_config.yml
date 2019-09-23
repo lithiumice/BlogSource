@@ -82,6 +82,10 @@ recommend:
 favicon: /favicon.jpg
 logo: /medias/logo.png
 
+# menu:
+#   cnblog: http://example.com
+#     icon: fa-hand-point-right
+#     
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
@@ -157,8 +161,8 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatars/avatar.jpg
-  career: CQU | Geek | Studying
-  introduction: JUST LIKE A ROLLING STONES THAT NEVER STOP
+  career: 重庆大学在读
+  introduction: 热爱代码,热爱极客,热爱一切酷酷的东西
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.

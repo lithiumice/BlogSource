@@ -13,9 +13,12 @@ hexo init blog &amp;&amp; cd blog
 npm i hexo-generator-json-content --save &amp;&amp; npm i hexo-wordcount --save
 ```
 
+- ## typecho
+`http://typecho.org/downloads/1.1-17.10.30-release.tar.gz`
+
 - ## 使用主题
 获取 Archer 主题：
-git clone "https://github.com/fi3ework/hexo-theme-archer.git" themes/archer
+`git clone https://github.com/fi3ework/hexo-theme-archer.git` themes/archer
 覆盖 Hexo 默认配置文件：
 cp ../hexo.config.yml _config.yml
 覆盖 Archer 主题默认配置文件：
@@ -58,3 +61,26 @@ ssh git@47.102.85.59
 - ## 动漫图片
 npm install --save hexo-helper-live2d
 npm install --save live2d-widget-model-shizuku
+
+- ## google analysis
+```
+# <!-- Global site tag (gtag.js) - Google Analytics -->
+# <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147411470-2"></script>
+# <script>
+#   window.dataLayer = window.dataLayer || [];
+#   function gtag(){dataLayer.push(arguments);}
+#   gtag('js', new Date());
+#
+#   gtag('config', 'UA-147411470-2');
+# </script>
+```
+
+- ## 设置hexo推送多个仓库
+```
+deploy:
+  type: git
+  message: [message]
+  repo:
+    github: <repository url>,[branch]
+    gitcafe: <repository url>,[branch]
+```

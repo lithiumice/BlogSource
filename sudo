@@ -1,0 +1,4 @@
+LD_LIBRARY_PATH=/usr/local/qt5.13.0/5.13.0/gcc_64/lib/ tee /home/lithium/.zshrc
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH tee /home/lithium/.zshrc
+LD_LIBRARY_PATH=/usr/local/qt5.13.0/5.13.0/gcc_64/lib/ tee /etc/profile
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH tee /etc/profile

@@ -7,15 +7,26 @@ categories:
 date: 2019-09-08 22:06:28
 tags:
 ---
-
+## tips
+docker ps -a --no-trunc 查看正在运行的容器是通过什么命令启动的：
+-f: 让 docker logs 像使用 tail -f 一样来输出容器内部的标准输出。
+-d:让容器在后台运行。
+-P:将容器内部使用的网络端口映射到我们使用的主机上。
+-f: 让 docker logs 像使用 tail -f 一样来输出容器内部的标准输出。
+-d:让容器在后台运行。
+-P:将容器内部使用的网络端口映射到我们使用的主机上。
+docker attach --sig-proxy=false mynginx
+-f :通过SIGKILL信号强制删除一个运行中的容器
+-l :移除容器间的网络连接，而非容器本身
+-v :-v 删除与容器关联的卷
+-d :分离模式: 在后台运行
+-i :即使没有附加也保持STDIN 打开
+-t :分配一个伪终端
 ## useful command
 ```
   docker run -d -p 5000:5000 training/webapp python app.py
   docker logs -f bf08b7f2cd89(ID)
   docker run -it ubuntu:15.10 /bin/bash
-  -f: 让 docker logs 像使用 tail -f 一样来输出容器内部的标准输出。
-  -d:让容器在后台运行。
-  -P:将容器内部使用的网络端口映射到我们使用的主机上。
   docker top wizardly_chandrasekhar
   docker inspect wizardly_chandrasekhar
   docker ps -l 查询最后一次创建的容器
@@ -26,9 +37,8 @@ tags:
   docker run -d -p 5000:5000 training/webapp python app.py
   docker logs -f bf08b7f2cd89(ID)
   docker run -it ubuntu:15.10 /bin/bash
-  -f: 让 docker logs 像使用 tail -f 一样来输出容器内部的标准输出。
-  -d:让容器在后台运行。
-  -P:将容器内部使用的网络端口映射到我们使用的主机上。
+  docker exec -it mynginx /bin/sh /root/runoob.sh
+
 ```
 
 ## main command

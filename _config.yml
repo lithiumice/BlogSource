@@ -116,7 +116,6 @@ deploy:
   repository:
     github: git@github.com:lithiumice/lithiumice.github.io.git
     coding: git@git.dev.tencent.com:lwsv/lwsv.git
-    # git: lithium@47.102.85.59/repos/blog.git
   branch: master
 - type: baidu_url_submitter
 

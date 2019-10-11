@@ -10,6 +10,20 @@ summary:
 tags:
 categories:
 ---
+
+##more
+ android.os.Build.DEVICE
+compile 'jp.wasabeef:glide-transformations:2.0.1'
+greendao { schemaVersion 1 }
+greendao { schemaVersion 2 }
+http://47.102.85.59:8000/api/poetry/ {
+    exclude group: 'com.intellij', module: 'annotations'
+}
+## set navigationView
+ViewGroup.LayoutParams params = navigationView_main.getLayoutParams();
+       params.width = getResources().getDisplayMetrics().widthPixels * 1 / 2;
+       navigationView_main.setLayoutParams(params);
+
 ## linux ddms
 /home/skart/ide/android/sdk/tools/lib/monitor-x86_64
 /home/skart/ide/android/sdk/platform-tools

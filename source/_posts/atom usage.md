@@ -7,6 +7,20 @@ categories:
 date: 2019-09-06 21:43:57
 tags:
 ---
+<!-- hualin.online Baidu tongji analytics -->
+<!-- <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b544a03dfd20c66cf828bdd7807f6dd8";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script> -->
+<script src="https://hm.baidu.com/hm.js?b544a03dfd20c66cf828bdd7807f6dd8"></script>
+{% raw %}
+script
+{% endraw %}
 
 # usage of Atom
 
@@ -17,3 +31,5 @@ tags:
  + atom-beautify： 格式化代码 Ctrl+Alt+B进行格式化 + emmet： HTML CSS 快速编写 + autcomplete-×系列： 代码自动补全 - autocompete-paths： 路径补全 - autocompete-php： PHP语言 + pigments： 样式显示颜色 + docblockr: 快捷注释 + JavaScript-snippets： js缩写，自动补全 + file-icons： 图片显示文件类型 ## 常用主题 + seti-ui + seti-syntax + atom-material-ui + atom-material-syntax
 
 ## 常用快捷键
+|---|---|---|
+|快捷键|功能|
